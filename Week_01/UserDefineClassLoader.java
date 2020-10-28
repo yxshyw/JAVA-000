@@ -20,7 +20,7 @@ public class UserDefineClassLoader extends ClassLoader {
             e.printStackTrace();
         }
         for (int i = 0; i < bytes.length; i++) {
-            bytes[i] = (byte)(~bytes[i]);
+            bytes[i] = (byte) (~bytes[i]);
         }
 
         return defineClass(name, bytes, 0, bytes.length);
