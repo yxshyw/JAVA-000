@@ -1,4 +1,4 @@
-# 使用netty client发送请求
+# 使用netty实现http的client
 
 1.NettyHttpClient.java
 ```java
@@ -50,3 +50,26 @@
         }
     }
  ```
+
+# 实现request的filter
+
+```java
+public class HttpRequestFilterImpl implements HttpRequestFilter {
+    @Override
+    public void filter(FullHttpRequest fullRequest, ChannelHandlerContext ctx) {
+        fullRequest.headers().set("nio", "yw");
+    }
+}
+```
+
+# 实现随机路由
+
+```java
+public class HttpEndpointRouterImpl implements HttpEndpointRouter {
+    @Override
+    public String route(List<String> endpoints) {
+        Random r = new Random();
+        return endpoints.get(r.nextInt(endpoints.size()));
+    }
+}
+```
