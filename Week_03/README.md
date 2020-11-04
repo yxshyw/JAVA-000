@@ -1,6 +1,7 @@
 # 使用netty client发送请求
 
 1.NettyHttpClient.java
+```java
   public void connect(String host, int port, String uri, ChannelHandlerContext ctx) throws Exception {
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
@@ -22,7 +23,9 @@
             workerGroup.shutdownGracefully();
         }
     }
+ ```
 2.NettyHttpClientOutboundHandler.java
+```java
    @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         URI uri = new URI(this.uri);
@@ -46,3 +49,4 @@
             this.ctx.writeAndFlush(response);
         }
     }
+ ```
