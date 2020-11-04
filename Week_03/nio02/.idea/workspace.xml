@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aab6f859-277d-4018-97be-00b8d710fd4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/filter/HttpRequestFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/router/HttpEndpointRouterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/NettyServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/NettyServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/httpclient4/HttpOutboundHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/httpclient4/HttpOutboundHandler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.6.3\repo" />
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jmJ6xjOB39YCzx3sqGYIPlGRfb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NettyServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.kimmking.gateway.NettyServerApplication" />
+      <module name="netty-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.kimmking.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aab6f859-277d-4018-97be-00b8d710fd4b" name="Default Changelist" comment="" />
+      <created>1604403163160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604403163160</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1604420098617">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1604420098617" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1604421517094">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604421517094" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1604421517094">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604421517094" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1604421517094">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604421517094" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1604421517094">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604421517094" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1604421517095">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604421517095" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1604421517095">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604421517095" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1604421517095">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604421517095" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1604421517095">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604421517095" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1604416266694">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604416266694" />
+    <state x="175" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604415034711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="175" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1604415034711" />
+    <state x="339" y="72" width="625" height="536" key="find.popup" timestamp="1604420893694">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="339" y="72" width="625" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1604420893694" />
+  </component>
+</project>
