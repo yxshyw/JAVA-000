@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "school.config",
+      "type": "java.lang.String",
+      "description": "Description for school.config",
+      "defaultValue": "con"
+    }
+  ]
+}
