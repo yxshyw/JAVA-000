@@ -1,0 +1,19 @@
+server:
+  port: 9090
+
+logging:
+  level:
+    root: info
+
+spring:
+  datasource:
+    one:
+      jdbc-url: jdbc:mysql://localhost:3306/jmc?serverTimezone=UTC
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    two:
+      jdbc-url: jdbc:mysql://localhost:3306/jmc_two?serverTimezone=UTC
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
